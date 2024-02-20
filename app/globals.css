@@ -36,3 +36,18 @@ html {
  background-position: center ;
  color: white;
 }
+
+.card{
+    @apply p-4 text-white grid gap-3 rounded
+}
+.card h4{
+    @apply text-white
+}
+.card p{
+    @apply text-gray-300
+}
+
+.card a{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    @apply text-white mt-4 px-4 py-1
+}
