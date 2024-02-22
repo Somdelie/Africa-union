@@ -16,26 +16,21 @@ import Image from "next/image";
 const links1 = [
   {
     title: "Insurance",
-    link: "/",
+    link: "/insurance",
   },
   {
     title: "OEM & Aftermarket",
-    link: "/",
+    link: "/aftermarket",
   },
   {
     title: "Fleet",
-    link: "/",
+    link: "/fleet",
   },
 ];
 const links2 = [
   {
-    title: "Blog",
-
-    link: "/",
-  },
-  {
     title: " Usage Based Insurance",
-    link: "/",
+    link: "/usage-based",
   },
   {
     title: "   Fleet Telemetric Solution",
@@ -52,11 +47,11 @@ const links3 = [
     link: "/",
   },
   {
-    title: "  Vision",
+    title: "Vision",
     link: "/",
   },
   {
-    title: "    Contact us",
+    title: "Contact us",
     link: "/",
   },
   {

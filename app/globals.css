@@ -1,53 +1,78 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
- 
-*{
-    margin: 0;
-    padding: 0;
-    @apply text-stone-700
+
+* {
+  margin: 0;
+  padding: 0;
+  @apply text-stone-700;
 }
 
-body{
-    overflow-x: hidden;
+body {
+  overflow-x: hidden;
 }
 
 html {
-    scroll-snap-type: mandatory;
-    scroll-behavior: smooth;
-  }
+  scroll-snap-type: mandatory;
+  scroll-behavior: smooth;
+}
 
-.bg-popover{
-    background-color: white;
+.bg-popover {
+  background-color: white;
 }
 
 .border {
-    border: none !important;
+  border: none !important;
 }
 
-.box-shadow{
-    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+.box-shadow {
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+.box-shadow1 {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-.hero{
- background-image: url("/b4.jpg");
- background-repeat: no-repeat;
- background-size: cover;
- background-position: center ;
- color: white;
+.hero {
+  background-image: url("/b4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+.insurance {
+  background-image: url("/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
 }
 
-.card{
-    @apply p-4 text-white grid gap-3 rounded
+.card {
+  @apply p-4 text-white grid gap-3 rounded;
 }
-.card h4{
-    @apply text-white
+.card h4 {
+  @apply text-white;
 }
-.card p{
-    @apply text-gray-300
+.card p {
+  @apply text-gray-300;
 }
 
-.card a{
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-    @apply text-white mt-4 px-4 py-1
+.card a {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  @apply text-white mt-4 px-4 py-1;
+}
+
+.card3 {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  @apply p-3;
+}
+
+.card3 h2 {
+  @apply font-semibold text-main;
+}
+.card3 p {
+  @apply text-sm mt-3 font-mono;
+}
+.card3 span {
+  @apply text-xl font-semibold;
 }
